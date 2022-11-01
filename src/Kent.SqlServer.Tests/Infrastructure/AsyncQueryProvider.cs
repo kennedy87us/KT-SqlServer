@@ -1,6 +1,6 @@
 ﻿namespace Kent.SqlServer.Tests.Infrastructure
 {
-    using Microsoft.EntityFrameworkCore.Query.Internal;
+    using Microsoft.EntityFrameworkCore.Query;
     using System.Linq;
     using System.Linq.Expressions;
     using System.Threading;
