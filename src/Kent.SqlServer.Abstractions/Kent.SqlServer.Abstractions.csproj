@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <IsPackable>true</IsPackable>
     <Authors>KenT</Authors>
     <Copyright>© KenT. All rights reserved.</Copyright>
-    <Product>Kent.SqlServer library</Product>
+    <Product>Kent.SqlServer.Abstractions library</Product>
     <Description>Provides the core models and abstractions to interact with SQL Server.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -24,7 +24,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.20" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.21" />
   </ItemGroup>
 
 </Project>
